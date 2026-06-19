@@ -1,0 +1,12 @@
+[project]
+name = "wasserrakete-notebook"
+version = "0.1.0"
+description = "Jupyter notebook for a vertical water rocket model and filling-level optimization."
+requires-python = ">=3.10"
+dependencies = [
+    "jupyterlab>=4.0",
+    "ipykernel>=6.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
